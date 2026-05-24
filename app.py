@@ -7,7 +7,7 @@ from scipy.stats import norm
 import yfinance as yf
 import re
 
-st.set_page_config(page_title="My Options Dashboard", layout="wide")
+st.set_page_config(page_title="Vic's Options Dashboard", layout="wide")
 st.markdown("""
     <style>
     * { font-size: 20px !important; }
@@ -17,7 +17,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 My Options Trades Visualizer")
+st.title("📊 Vic Gnozzo's  --  5-24-26 151pm My Options Trades Visualizer")
 st.caption(f"📅 Today: **{datetime.now().strftime('%B %d, %Y')}**")
 
 # Full Black-Scholes with Greeks
