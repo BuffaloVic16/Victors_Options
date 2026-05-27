@@ -1,7 +1,7 @@
 streamlit
 pandas
-plotly
 numpy
-scipy
+plotly
 yfinance
-openpyxl
+python-dotenv
+reportlab
